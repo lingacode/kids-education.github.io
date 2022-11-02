@@ -1173,4 +1173,15 @@ main1{
 .btn8:hover {
   opacity: 0.8;
 }
-
+.main2{
+  width: 88.4%;
+  margin: 40px auto;
+  border:1px solid grey;
+  display: grid;
+  grid-template-rows: 260px ;
+  grid-template-columns: 680px 500px;
+  grid-gap: 20px;
+  
+}
+.div1{background-color: #ff4757; }
+.div2{background-color: #2ed573;}
