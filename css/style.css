@@ -501,7 +501,7 @@ style {
   min-width: 768px;
   padding-left: 3rem;
   padding-right: 3rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   background-color: white;
   width: 100%;
   margin-right: auto;
@@ -511,17 +511,20 @@ style {
 }
 
 .btn3 {
-  background-color: #17a2b8;
-  border: none;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
+  background-color: #17a2b8;
   display: inline-block;
+  border: 1px solid transparent;
+  padding: 0.35rem;
   font-size: 1rem;
-  margin: 4px 3px;
-  cursor: pointer;
+  line-height: 1.5;
   border-radius: 30px;
+  /* margin-left: 130px;
+  margin-right: 130px; */
+  cursor: pointer;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
 }
 
 .btn3:hover {
@@ -580,7 +583,7 @@ style {
 }
 
 .class1 {
-  max-width: 1140px;
+  max-width: 1170px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -613,11 +616,12 @@ style {
 .class5 {
   margin-bottom: 3rem;
   flex: 0 0 33.33333%;
-  max-width: 33.33333%;
+  /* max-width: 33.33333%; */
   position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* width: 100%; */
+  /* padding-right: 10px; */
+  /* padding-left: 15px; */
+  /* margin-left: 1rem; */
 }
 
 .class6 {
@@ -664,7 +668,7 @@ style {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 19px;
   background-color: rgb(9 30 66 / 3%);
 }
 
@@ -682,8 +686,8 @@ style {
   height: 700px;
   border: none solid #c3c3c3;
   display: flex;
-  margin-left: -40px;
-  margin-right: -50px;
+  /* margin-left: -40px; */
+  /* margin-right: -50px; */
 }
 
 #row1 div {
@@ -763,7 +767,7 @@ div {
 }
 
 #row3 {
-  width: 1020px;
+  /* width: 1020px; */
   height: 450px;
   display: flex;
 }
