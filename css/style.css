@@ -27,7 +27,7 @@ body {
 .logo1 {
   font-size: 50px;
   line-height: 60px;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: left;
 }
 
@@ -102,7 +102,7 @@ style {
   cursor: pointer;
   padding-right: 1rem;
   padding-left: 1rem;
-  margin-left: 8rem;
+  margin-left: 4rem;
   margin-top: 0.8rem;
 }
 
@@ -343,7 +343,7 @@ style {
 .child4 {
   width: 30%;
   height: 12vh;
-  background-color: white;
+  /* background-color: white; */
   text-align: right;
   color: white;
   margin-top: 0.5rem;
@@ -352,7 +352,7 @@ style {
 .child5 {
   width: 80%;
   color: green;
-  background-color: white;
+  /* background-color: white; */
   height: 12vh;
   margin-top: 0.5rem;
 }
@@ -373,7 +373,7 @@ style {
 .header2.sticky{
   /* padding: 10px 0; */
   width: 100%;
-  /* background: #87cefa; */
+  background: #d1d0ce;
   box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
   transition: all0.5s ease;
   position: fixed;
@@ -388,8 +388,9 @@ style {
   height: 75px; */
   border: 0 solid #c3c3c3;
   display: flex;
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 100px;
+  font-weight: 600;
 
 }
 
@@ -399,7 +400,7 @@ style {
   color: black;
   padding: 5px 15px 5px 15px;
   border-radius: 40px;
-  background: white;
+  /* background: white; */
   margin-left: 2px;
   white-space: nowrap;
 
@@ -424,7 +425,7 @@ style {
   display: inline;
 }
 
-.navigation {
+/* .navigation {
   width: 90%;
   height: 40px;
   margin-left: 5%;
@@ -459,7 +460,7 @@ style {
 .navigation li:hover ul {
   display: block;
   position: absolute;
-}
+} */
 
 .body {
   padding: 0;
