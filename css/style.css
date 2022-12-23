@@ -358,7 +358,7 @@ style {
 }
 
 .header2 {
-  height: 12.9vh;
+  /* height: 12.9vh; */
   min-width: 768px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -368,11 +368,20 @@ style {
   margin-left: auto;
   box-sizing: border-box;
   display: block;
+  z-index: 111;
+}
+.header2.sticky{
+  /* padding: 10px 0; */
+  width: 100%;
+  /* background: #87cefa; */
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
+  transition: all0.5s ease;
+  position: fixed;
 }
 
-.navbar {
+/* .navbar {
   margin-top: 1.8rem;
-}
+} */
 
 #main1 {
   /* width: 288px;
