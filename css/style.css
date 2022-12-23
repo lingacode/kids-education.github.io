@@ -308,6 +308,9 @@ style {
   flex-shrink: 0;
   flex-basis: 70px;
 }
+ul li{
+  display: inline-block;
+}
 
 .about {
   height: 650px;
