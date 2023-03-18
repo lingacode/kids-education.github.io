@@ -376,7 +376,7 @@ ul li{
 .header2.sticky{
   /* padding: 10px 0; */
   width: 100%;
-  background: #d1d0ce;
+  background: #fff;
   box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
   transition: all0.5s ease;
   position: fixed;
