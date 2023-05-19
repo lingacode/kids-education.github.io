@@ -1254,4 +1254,21 @@ main2{
 .div1{background-color: #fff;
 
 }
-.div2{background-color: #fff;}
+.div2{background-color: #fff;
+}
+ main3{
+  width: 46%;
+  color: white;
+  display: grid;
+  grid-template-rows:  130px ;
+  grid-template-columns: 200px 400px ;
+  grid-gap: 20px;
+}
+.div15{
+  background-color: #fff;
+}
+.div16{
+  color: black;
+  background-color: #fff;
+  margin-top: 15px;
+}
