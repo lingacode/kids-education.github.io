@@ -26,8 +26,6 @@ body {
 
 .logo1 {
   font-size: 50px;
-  line-height: 60px;
-  /* padding: 10px; */
   text-align: left;
 }
 
@@ -86,6 +84,7 @@ style {
   cursor: pointer;
   padding-right: 1rem;
   padding-left: 1rem;
+  margin-left: -200px;
 }
 
 .btn:hover {
@@ -338,40 +337,33 @@ ul li{
 .Parent1 {
   display: flex;
   flex-direction: row;
-  /* margin-top: 1rem; */
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding: 0px 48px;
+  height: 87px;
 }
 
 .child4 {
-  width: 30%;
-  height: 12vh;
-  /* background-color: white; */
-  text-align: right;
-  color: white;
-  margin-top: 0.5rem;
+  height: 84px;
+  text-align: left;
+  color: #00394f;
+  margin: 0px 16px 0px 0px;
+  padding: 5px 0px;
+  font-size: 50px;
+  font-family: Nunito,sans-serif;
 }
 
 .child5 {
-  width: 80%;
-  color: green;
-  /* background-color: white; */
-  height: 12vh;
-  margin-top: 0.5rem;
+  color: #666666;
+  font-family: Nunito,sans-serif;
+  
 }
 
 .header2 {
-  /* height: 12.9vh; */
-  min-width: 768px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background-color: white;
+  background-color: #f8f9fA;
+  color: #666666;
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  box-sizing: border-box;
   display: block;
   z-index: 111;
+  padding: 0px 15px;
 }
 .header2.sticky{
   /* padding: 10px 0; */
@@ -381,90 +373,30 @@ ul li{
   transition: all0.5s ease;
   position: fixed;
 }
-
-/* .navbar {
-  margin-top: 1.8rem;
-} */
-
 #main1 {
-  /* width: 288px;
-  height: 75px; */
   border: 0 solid #c3c3c3;
   display: flex;
-  font-size: 22px;
-  margin-left: 100px;
+  font-size: 16px;
   font-weight: 600;
-
 }
 
 #main1 li a {
   display: block;
   text-decoration: none;
-  color: black;
-  padding: 5px 15px 5px 15px;
+  color: #00394f;
+  padding: 30px 15px;
   border-radius: 40px;
-  /* background: white; */
-  margin-left: 2px;
-  white-space: nowrap;
-
+  font-family: Nunito,san-serif;
 }
 
 #main1 li a .active {
-  color: blue;
+  color: #17A2b8;
 }
-
-#main1 div {
-  /* flex-basis: 60px; */
-  margin-top: 1rem;
-}
-
-/* #main1 div:nth-of-type(2) {
-  flex-basis: 50px;
-} */
-
 .papun {
   float: left;
   height: 80px;
   display: inline;
 }
-
-/* .navigation {
-  width: 90%;
-  height: 40px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.navigation ul {
-  font-family: sans-serif;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.navigation ul li {
-  display: block;
-  position: relative;
-  float: left;
-}
-
-.navigation ul li a {
-  display: block;
-  text-decoration: none;
-  color: black;
-  padding: 5px 15px 5px 15px;
-  border-radius: 40px;
-  background: white;
-  margin-left: 2px;
-  white-space: nowrap;
-}
-
-.navigation li:hover ul {
-  display: block;
-  position: absolute;
-} */
-
 .body {
   padding: 0;
   margin: 0;
@@ -629,12 +561,7 @@ ul li{
 .class5 {
   margin-bottom: 3rem;
   flex: 0 0 33.33333%;
-  /* max-width: 33.33333%; */
   position: relative;
-  /* width: 100%; */
-  /* padding-right: 10px; */
-  /* padding-left: 15px; */
-  /* margin-left: 1rem; */
 }
 
 .class6 {
@@ -1257,11 +1184,11 @@ main2{
 .div2{background-color: #fff;
 }
  main3{
-  width: 46%;
+  width: 94%;
   color: white;
   display: grid;
   grid-template-rows:  130px ;
-  grid-template-columns: 200px 400px ;
+  grid-template-columns: 200px 350px ;
   grid-gap: 20px;
 }
 .div15{
